@@ -1,0 +1,114 @@
+/* =============
+    Section 5
+============= */
+
+#section-5 {
+    
+    #section-5-header {
+        h1 {
+            padding-top: 30px;
+        }
+    }
+
+
+
+    #volunteer-gallery {
+        @include xl {
+            display: grid;
+            grid-template-columns: auto 1200px auto;
+            grid-template-areas: ". section5 .";
+        }
+        
+        ul {
+            
+            @include md {
+                display: grid;
+                grid-gap: 20px;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(2, 215px);
+                grid-template-areas: "cranes lanterns" "facepainting text";
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            @include lg {
+                grid-template-rows: repeat(2, 265px);
+            }
+
+            @include xl {
+                grid-area: section5;
+            }
+
+            li {
+                background-position: center;
+                background-size: cover;
+                height: 190px;
+                margin-top: 20px;
+
+                @include md {
+                    height: 220px;
+                }
+
+                @include lg {
+                    height: 270px;
+                }
+            }
+
+            #cranes {
+                background-image: url('../img/cranes.jpg');
+
+                @include md {
+                    grid-area: cranes;
+                }
+            }
+
+            #lanterns {
+                background-image: url('../img/diy lantern.jpg');
+        
+                @include md {
+                    grid-area: lanterns;
+                }
+            }
+
+            #facepainting {
+                background-image: url('../img/facepainting.jpg');
+
+                @include md {
+                    grid-area: facepainting;
+                }
+            }
+
+            #text-section5 {
+                @include md {
+                    grid-area: text;
+                }
+
+                p {
+                    padding-bottom: 10%;
+                    margin-left: 10px;
+                    margin-right: 10px;
+
+                    @include md {
+                        margin: 0;
+                        padding-bottom: 40px;
+                    }
+
+                    @include lg {
+                        padding-bottom: 105px;
+                    }
+                }
+
+                // h2 {
+                //     background-color: $red;
+                //     text-align: center;
+                //     padding: 20px;
+                //     border-radius: 10px;
+                //     width: 100px;
+                //     display: flex;
+                //     align-items: center;
+                //     justify-content: center;
+                // }
+            }
+        }
+    }
+}

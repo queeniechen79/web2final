@@ -1,3 +1,19 @@
 /* =============
     Footer
 ============= */
+
+footer {
+    padding-top: 80px;
+
+    #icons {
+        ul {
+            display: flex;
+            justify-content: center;
+
+            li {
+                margin-right: 15px;
+                
+            }
+        }
+    }
+}

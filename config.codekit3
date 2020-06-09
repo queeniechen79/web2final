@@ -19,6 +19,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/burger.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/burger.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/crab.jpg": {
 		"ft": 16384,
 		"iS": 23878,
@@ -63,6 +73,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/facepainting.jpg": {
 		"ft": 16384,
 		"iS": 35204,
@@ -82,7 +102,7 @@
 		"oAP": "/deploy/img/hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/history.jpg": {
@@ -93,8 +113,18 @@
 		"oAP": "/deploy/img/history.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
+		},
+	"/deploy/img/instagram.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/instagram.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/deploy/img/lion dance.jpg": {
 		"ft": 16384,
@@ -128,6 +158,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/deploy/img/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/deploy/index.html": {
 		"cB": 0,
@@ -170,9 +210,9 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dev/js/scripts-min.js",
-		"oF": 0,
-		"sC": 3,
+		"oAP": "/deploy/js/scripts-min.js",
+		"oF": 2,
+		"sC": 0,
 		"tS": 0
 		},
 	"/dev/scss/base/_base.scss": {
@@ -353,6 +393,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_section-4.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-5.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-5.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

@@ -2,8 +2,121 @@
     Section 4
 ============= */
 #section-4{
-    .grid-content{
-        
+    padding-top: 100px;
+
+    #section-4-header {
+        h1 {
+            padding-bottom: 30px;
+        }
     }
 
+    #food-carousel {
+        display: grid;
+        
+        ul {
+            //grid-template-columns: 2vw 96vw 2vw;
+            //grid-template-areas: ". carousel .";
+            overflow: hidden;
+        
+            @include md {
+                grid-template-columns: auto 60% auto;
+            }
+
+            li {
+                display: grid;
+                text-align: center;
+                grid-area: carousel;
+
+                div {
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    height: 340px;
+                    margin-bottom: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+    
+                    @include md {
+                        height: 340px;
+                    }
+    
+                    @include lg {
+                        height: 340px;
+                    }
+                }
+
+                p {
+                    margin-left: 20%;
+                    margin-right: 20%;
+
+                    @include md {
+                        margin-left: 30%;
+                        margin-right: 30%;
+                    }
+
+                    @include lg {
+                        margin-left: 35%;
+                        margin-right: 35%;
+                    }
+                }
+            }
+            
+            #mooncake {                
+                grid-template-areas: "mooncake-image" "mooncake-text";
+                
+                @include md {
+                    grid-area: mooncake;
+                }
+
+                
+            }
+            #carousel-1 {
+                background-image: url('../img/mooncake.jpg');
+                //grid-area: mooncake-image;
+                height: 400px;
+
+                p {
+                    grid-area: mooncake-text;
+                }
+            }
+            #duck {
+                grid-template-areas: "duck-image" "duck-text";
+                
+                @include md {
+                    grid-area: duck;
+                }
+
+                
+            }
+            #carousel-2 {
+                background-image: url('../img/duck.jpg');
+
+                // grid-area: duck-image;
+                height: 400px;
+
+                p {
+                    grid-area: duck-text;
+                }
+            }
+
+            #crab {
+                grid-template-areas: "crab-image" "crab-text";
+                
+                @include md {
+                    grid-area: crab;
+                }
+
+               
+            }
+            #carousel-3 {
+                background-image: url('../img/crab.jpg');
+                height: 400px;
+                //grid-area: crab-image;
+                
+                p {
+                    grid-area: crab-text;
+                }
+            }
+        }
+    }
 }

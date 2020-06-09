@@ -339,22 +339,192 @@ ul {
     justify-content: center;
     align-items: center; }
 
+.slick-dots {
+  bottom: 0; }
+
 /* =============
     Typography
 ============= */
-body {
-  font-family: 'Montserrat', sans-serif; }
-
 h1, h2, h3, h4 {
   margin: 0;
   padding: 0; }
 
-p {
-  margin: 0;
-  padding: 0; }
+#section-1 #left-text h1 {
+  font-size: 72px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 70px;
+  font-weight: 400; }
 
-.section-title {
-  font-weight: 300; }
+#section-1 #left-text h2, #section-1 #left-text h3 {
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400; }
+
+#section-1 #left-text h4 {
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400; }
+
+@media (min-width: 768px) {
+  #section-1 #left-text {
+    padding-right: 70px; }
+    #section-1 #left-text h1 {
+      font-size: 156px;
+      font-family: 'Raleway', sans-serif;
+      line-height: 130px; }
+    #section-1 #left-text h2, #section-1 #left-text h3 {
+      font-size: 60px;
+      font-family: 'Raleway', sans-serif;
+      line-height: 70px; }
+    #section-1 #left-text h4 {
+      font-size: 18px;
+      font-family: 'Lato', sans-serif; } }
+
+@media (min-width: 992px) {
+  #section-1 #left-text {
+    padding-right: 80px; }
+    #section-1 #left-text h1 {
+      font-size: 190px;
+      font-family: 'Raleway', sans-serif;
+      line-height: 195px; }
+    #section-1 #left-text h2, #section-1 #left-text h3 {
+      font-size: 79px;
+      font-family: 'Raleway', sans-serif;
+      line-height: 80px; }
+    #section-1 #left-text h4 {
+      font-size: 20px;
+      font-family: 'Lato', sans-serif; } }
+
+#section-1 #right-text {
+  font-family: 'Raleway', sans-serif; }
+  #section-1 #right-text h1 {
+    font-size: 21px;
+    font-weight: 400; }
+  #section-1 #right-text h2 {
+    font-size: 21px;
+    font-weight: 700; }
+  @media (min-width: 768px) {
+    #section-1 #right-text h1 {
+      font-size: 48px; }
+    #section-1 #right-text h2 {
+      font-size: 48px;
+      font-weight: bold; } }
+  @media (min-width: 992px) {
+    #section-1 #right-text {
+      padding-top: 60px; }
+      #section-1 #right-text h1 {
+        font-size: 60px; }
+      #section-1 #right-text h2 {
+        font-size: 60px;
+        font-weight: bold; } }
+#section-2 {
+  font-family: 'Lato', sans-serif;
+  color: #fff; }
+  #section-2 h1 {
+    font-size: 19px; }
+  #section-2 h2 {
+    font-size: 31px; }
+  #section-2 h3 {
+    font-size: 20px;
+    font-weight: 300; }
+  @media (min-width: 768px) {
+    #section-2 h1 {
+      font-size: 48px; }
+    #section-2 h2 {
+      font-size: 78px; }
+    #section-2 h3 {
+      font-size: 49px; }
+    #section-2 p {
+      font-size: 0.875rem;
+      text-align: justify;
+      line-height: 23px; } }
+  @media (min-width: 992px) {
+    #section-2 h1 {
+      font-size: 57px; }
+    #section-2 h2 {
+      font-size: 92px; }
+    #section-2 h3 {
+      font-size: 57px; }
+    #section-2 p {
+      font-size: 1rem;
+      text-align: justify;
+      line-height: 28px; } }
+  #section-2 #text-2 {
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    color: #000; }
+    #section-2 #text-2 h1 {
+      font-size: 19px; }
+    #section-2 #text-2 h2 {
+      font-size: 31px; }
+    #section-2 #text-2 h3 {
+      font-size: 20px; }
+    #section-2 #text-2 p {
+      font-size: 0.75rem;
+      line-height: 2; }
+
+#section-3 {
+  font-family: 'Lato', sans-serif; }
+  #section-3 #section-3-header h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 30px; }
+  #section-3 h2 {
+    font-size: 1rem;
+    color: #fff;
+    text-align: center; }
+  #section-3 p {
+    text-align: justify;
+    font-size: 0.75rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.5; }
+  @media (min-width: 768px) {
+    #section-3 p {
+      margin-left: 90px;
+      margin-right: 90px; } }
+#section-4 {
+  font-family: 'Lato', sans-serif; }
+  #section-4 #section-4-header h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 30px; }
+  #section-4 h2 {
+    font-size: 1rem;
+    color: #fff;
+    text-align: center; }
+  #section-4 p {
+    text-align: justify;
+    font-size: 0.75rem;
+    line-height: 1.5; }
+
+#section-5 {
+  font-family: 'Lato', sans-serif; }
+  #section-5 header h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 30px; }
+  #section-5 p {
+    font-size: 0.75rem;
+    line-height: 2; }
+  #section-5 h2 {
+    background-color: #B04D38;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin: 8% auto 10%;
+    padding: 15px;
+    border-radius: 10px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+footer h6 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.75rem;
+  line-height: .2; }
 
 /* =============
     Buttons
@@ -383,15 +553,378 @@ textarea {
 /* =============
     Footer
 ============= */
+footer {
+  padding-top: 80px; }
+  footer #icons ul {
+    display: flex;
+    justify-content: center; }
+    footer #icons ul li {
+      margin-right: 15px; }
+
 /* =============
     Section 1
 ============= */
+#section-1 #section-1-container {
+  grid-template-areas: "nav burger"  "text-header text-header";
+  grid-template-columns: 80% auto;
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  height: 344px; }
+  @media (min-width: 768px) {
+    #section-1 #section-1-container {
+      height: 586px;
+      display: grid;
+      grid-template-columns: 10% auto 10%;
+      grid-template-rows: 130px auto;
+      grid-template-areas: ". nav ." ". text-header ."; } }
+  @media (min-width: 992px) {
+    #section-1 #section-1-container {
+      height: 781px;
+      grid-template-rows: 170px auto; } }
+  #section-1 #section-1-container #burger-container {
+    display: flex;
+    justify-content: flex-start;
+    grid-area: burger; }
+    @media (min-width: 768px) {
+      #section-1 #section-1-container #burger-container {
+        display: none; } }
+    #section-1 #section-1-container #burger-container i {
+      cursor: pointer; }
+    #section-1 #section-1-container #burger-container a:link,
+    #section-1 #section-1-container #burger-container a:visited {
+      color: #000; }
+      @media (min-width: 768px) {
+        #section-1 #section-1-container #burger-container a:link,
+        #section-1 #section-1-container #burger-container a:visited {
+          color: #fff; } }
+    #section-1 #section-1-container #burger-container a:hover,
+    #section-1 #section-1-container #burger-container a:active {
+      background-color: #B04D38;
+      color: #fff;
+      padding: 15px;
+      width: 150px;
+      text-align: center; }
+  #section-1 #section-1-container #nav-container {
+    grid-area: nav;
+    display: none; }
+    @media (min-width: 768px) {
+      #section-1 #section-1-container #nav-container {
+        display: block;
+        padding-top: 30px; } }
+    @media (min-width: 768px) {
+      #section-1 #section-1-container #nav-container ul {
+        display: flex;
+        align-items: center;
+        justify-content: center; } }
+    #section-1 #section-1-container #nav-container ul li {
+      font-family: 'Lato', sans-serif;
+      font-size: 1.5rem; }
+      @media (min-width: 768px) {
+        #section-1 #section-1-container #nav-container ul li {
+          margin: 0 60px 0 0;
+          align-items: center;
+          display: flex;
+          justify-content: center; } }
+      @media (min-width: 992px) {
+        #section-1 #section-1-container #nav-container ul li {
+          margin: 0 120px 0 0; } }
+      #section-1 #section-1-container #nav-container ul li a:link,
+      #section-1 #section-1-container #nav-container ul li a:visited {
+        color: #000;
+        padding: 15px;
+        text-align: center;
+        display: flex; }
+        @media (min-width: 768px) {
+          #section-1 #section-1-container #nav-container ul li a:link,
+          #section-1 #section-1-container #nav-container ul li a:visited {
+            color: #fff; } }
+      #section-1 #section-1-container #nav-container ul li a:hover,
+      #section-1 #section-1-container #nav-container ul li a:active {
+        background-color: #B04D38;
+        color: #fff; }
+  #section-1 #section-1-container #text-header {
+    grid-area: text-header;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: "left right";
+    color: #fff;
+    padding-left: 80px; }
+    @media (min-width: 768px) {
+      #section-1 #section-1-container #text-header {
+        padding-left: 0px;
+        grid-template-columns: 40% 60%; } }
+    #section-1 #section-1-container #text-header #left-text {
+      grid-area: left;
+      text-align: right;
+      padding-right: 20px; }
+      @media (min-width: 768px) {
+        #section-1 #section-1-container #text-header #left-text {
+          padding-right: 70px; } }
+      @media (min-width: 992px) {
+        #section-1 #section-1-container #text-header #left-text {
+          padding-right: 80px; } }
+    #section-1 #section-1-container #text-header #right-text {
+      grid-area: right;
+      text-align: left;
+      padding-top: 170px; }
+      @media (min-width: 768px) {
+        #section-1 #section-1-container #text-header #right-text {
+          padding-top: 40px; } }
+      @media (min-width: 992px) {
+        #section-1 #section-1-container #text-header #right-text {
+          padding-top: 60px; } }
 /* =============
     Section 2
 ============= */
+#section-2 #image {
+  background-image: url("../img/history.jpg");
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  height: 570px; }
+  @media (min-width: 768px) {
+    #section-2 #image {
+      height: 1370px; } }
+  @media (min-width: 992px) {
+    #section-2 #image {
+      height: 1824px; } }
+  #section-2 #image #text {
+    padding-left: 50%;
+    padding-top: 8%; }
+    #section-2 #image #text #top {
+      padding-bottom: 10px; }
+    #section-2 #image #text #bottom {
+      display: none; }
+      @media (min-width: 768px) {
+        #section-2 #image #text #bottom {
+          display: grid;
+          margin-right: 35%; } }
+      @media (min-width: 992px) {
+        #section-2 #image #text #bottom {
+          margin-right: 40%; } }
+      @media (min-width: 1200px) {
+        #section-2 #image #text #bottom {
+          margin-right: 55%; } }
+#section-2 #text-2 {
+  margin: 10px;
+  padding-top: 5%; }
+  #section-2 #text-2 #top {
+    padding-bottom: 10px;
+    display: none; }
+  #section-2 #text-2 #bottom {
+    margin-left: 70px;
+    margin-right: 70px; }
+  @media (min-width: 768px) {
+    #section-2 #text-2 {
+      display: none; } }
 /* =============
     Section 3
 ============= */
+#section-3 {
+  padding-top: 50px; }
+  #section-3 #section-3-header h1 {
+    padding-bottom: 30px; }
+  #section-3 #entertainment-gallery ul {
+    display: grid;
+    grid-template-rows: repeat 2, 425px;
+    grid-gap: 20px;
+    margin: 10px; }
+    @media (min-width: 768px) {
+      #section-3 #entertainment-gallery ul {
+        display: grid;
+        grid-template-rows: repeat(1, 470px);
+        grid-template-columns: auto 1fr 1fr auto;
+        grid-template-areas: ". liondance martialarts ."; } }
+    #section-3 #entertainment-gallery ul li {
+      display: grid;
+      text-align: center; }
+      #section-3 #entertainment-gallery ul li div {
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 340px;
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        @media (min-width: 768px) {
+          #section-3 #entertainment-gallery ul li div {
+            height: 340px; } }
+        @media (min-width: 992px) {
+          #section-3 #entertainment-gallery ul li div {
+            height: 340px; } }
+        #section-3 #entertainment-gallery ul li div p {
+          margin-left: 30%;
+          margin-right: 30%; }
+          @media (min-width: 992px) {
+            #section-3 #entertainment-gallery ul li div p {
+              margin-left: 35%;
+              margin-right: 35%; } }
+    #section-3 #entertainment-gallery ul #liondance {
+      grid-template-areas: "lion-image" "lion-text"; }
+      @media (min-width: 768px) {
+        #section-3 #entertainment-gallery ul #liondance {
+          grid-area: liondance; } }
+      #section-3 #entertainment-gallery ul #liondance div {
+        background-image: url("../img/lion dance.jpg");
+        grid-area: lion-image; }
+        #section-3 #entertainment-gallery ul #liondance div p {
+          grid-area: lion-text; }
+    #section-3 #entertainment-gallery ul #martialarts {
+      grid-template-areas: "martial-image" "martial-text"; }
+      @media (min-width: 768px) {
+        #section-3 #entertainment-gallery ul #martialarts {
+          grid-area: martialarts; } }
+      #section-3 #entertainment-gallery ul #martialarts div {
+        background-image: url("../img/martial arts.jpg");
+        grid-area: martial-image; }
+        #section-3 #entertainment-gallery ul #martialarts div p {
+          grid-area: martial-text; }
+
 /* =============
     Section 4
 ============= */
+#section-4 {
+  padding-top: 100px; }
+  #section-4 #section-4-header h1 {
+    padding-bottom: 30px; }
+  #section-4 #food-carousel {
+    display: grid; }
+    #section-4 #food-carousel ul {
+      overflow: hidden; }
+      @media (min-width: 768px) {
+        #section-4 #food-carousel ul {
+          grid-template-columns: auto 60% auto; } }
+      #section-4 #food-carousel ul li {
+        display: grid;
+        text-align: center;
+        grid-area: carousel; }
+        #section-4 #food-carousel ul li div {
+          background-repeat: no-repeat;
+          background-position: center;
+          height: 340px;
+          margin-bottom: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+          @media (min-width: 768px) {
+            #section-4 #food-carousel ul li div {
+              height: 340px; } }
+          @media (min-width: 992px) {
+            #section-4 #food-carousel ul li div {
+              height: 340px; } }
+        #section-4 #food-carousel ul li p {
+          margin-left: 20%;
+          margin-right: 20%; }
+          @media (min-width: 768px) {
+            #section-4 #food-carousel ul li p {
+              margin-left: 30%;
+              margin-right: 30%; } }
+          @media (min-width: 992px) {
+            #section-4 #food-carousel ul li p {
+              margin-left: 35%;
+              margin-right: 35%; } }
+      #section-4 #food-carousel ul #mooncake {
+        grid-template-areas: "mooncake-image" "mooncake-text"; }
+        @media (min-width: 768px) {
+          #section-4 #food-carousel ul #mooncake {
+            grid-area: mooncake; } }
+      #section-4 #food-carousel ul #carousel-1 {
+        background-image: url("../img/mooncake.jpg");
+        height: 400px; }
+        #section-4 #food-carousel ul #carousel-1 p {
+          grid-area: mooncake-text; }
+      #section-4 #food-carousel ul #duck {
+        grid-template-areas: "duck-image" "duck-text"; }
+        @media (min-width: 768px) {
+          #section-4 #food-carousel ul #duck {
+            grid-area: duck; } }
+      #section-4 #food-carousel ul #carousel-2 {
+        background-image: url("../img/duck.jpg");
+        height: 400px; }
+        #section-4 #food-carousel ul #carousel-2 p {
+          grid-area: duck-text; }
+      #section-4 #food-carousel ul #crab {
+        grid-template-areas: "crab-image" "crab-text"; }
+        @media (min-width: 768px) {
+          #section-4 #food-carousel ul #crab {
+            grid-area: crab; } }
+      #section-4 #food-carousel ul #carousel-3 {
+        background-image: url("../img/crab.jpg");
+        height: 400px; }
+        #section-4 #food-carousel ul #carousel-3 p {
+          grid-area: crab-text; }
+
+/* =============
+    Section 5
+============= */
+#section-5 #section-5-header h1 {
+  padding-top: 30px; }
+
+@media (min-width: 1200px) {
+  #section-5 #volunteer-gallery {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+    grid-template-areas: ". section5 ."; } }
+
+@media (min-width: 768px) {
+  #section-5 #volunteer-gallery ul {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 215px);
+    grid-template-areas: "cranes lanterns" "facepainting text";
+    margin-left: 10px;
+    margin-right: 10px; } }
+
+@media (min-width: 992px) {
+  #section-5 #volunteer-gallery ul {
+    grid-template-rows: repeat(2, 265px); } }
+
+@media (min-width: 1200px) {
+  #section-5 #volunteer-gallery ul {
+    grid-area: section5; } }
+
+#section-5 #volunteer-gallery ul li {
+  background-position: center;
+  background-size: cover;
+  height: 190px;
+  margin-top: 20px; }
+  @media (min-width: 768px) {
+    #section-5 #volunteer-gallery ul li {
+      height: 220px; } }
+  @media (min-width: 992px) {
+    #section-5 #volunteer-gallery ul li {
+      height: 270px; } }
+#section-5 #volunteer-gallery ul #cranes {
+  background-image: url("../img/cranes.jpg"); }
+  @media (min-width: 768px) {
+    #section-5 #volunteer-gallery ul #cranes {
+      grid-area: cranes; } }
+#section-5 #volunteer-gallery ul #lanterns {
+  background-image: url("../img/diy lantern.jpg"); }
+  @media (min-width: 768px) {
+    #section-5 #volunteer-gallery ul #lanterns {
+      grid-area: lanterns; } }
+#section-5 #volunteer-gallery ul #facepainting {
+  background-image: url("../img/facepainting.jpg"); }
+  @media (min-width: 768px) {
+    #section-5 #volunteer-gallery ul #facepainting {
+      grid-area: facepainting; } }
+@media (min-width: 768px) {
+  #section-5 #volunteer-gallery ul #text-section5 {
+    grid-area: text; } }
+
+#section-5 #volunteer-gallery ul #text-section5 p {
+  padding-bottom: 10%;
+  margin-left: 10px;
+  margin-right: 10px; }
+  @media (min-width: 768px) {
+    #section-5 #volunteer-gallery ul #text-section5 p {
+      margin: 0;
+      padding-bottom: 40px; } }
+  @media (min-width: 992px) {
+    #section-5 #volunteer-gallery ul #text-section5 p {
+      padding-bottom: 105px; } }
