@@ -547,6 +547,47 @@ textarea {
 /* =============
     Navigation
 ============= */
+#nav-container {
+  background-color: #fff;
+  height: 344px;
+  width: 100%;
+  position: absolute; }
+  @media (min-width: 768px) {
+    #nav-container {
+      background-color: none;
+      height: 0px; } }
+  @media (min-width: 768px) {
+    #nav-container ul {
+      display: flex;
+      align-items: center;
+      justify-content: center; } }
+  #nav-container ul li {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem; }
+    @media (min-width: 768px) {
+      #nav-container ul li {
+        margin: 0 60px 0 0;
+        align-items: center;
+        display: flex;
+        justify-content: center; } }
+    @media (min-width: 992px) {
+      #nav-container ul li {
+        margin: 0 120px 0 0; } }
+    #nav-container ul li a:link,
+    #nav-container ul li a:visited {
+      color: #000;
+      padding: 15px;
+      text-align: center;
+      display: flex; }
+      @media (min-width: 768px) {
+        #nav-container ul li a:link,
+        #nav-container ul li a:visited {
+          color: #fff; } }
+    #nav-container ul li a:hover,
+    #nav-container ul li a:active {
+      background-color: #B04D38;
+      color: #fff; }
+
 /* =============
     Header
 ============= */
@@ -583,67 +624,19 @@ footer {
     #section-1 #section-1-container {
       height: 781px;
       grid-template-rows: 170px auto; } }
-  #section-1 #section-1-container #burger-container {
-    display: flex;
-    justify-content: flex-start;
-    grid-area: burger; }
-    @media (min-width: 768px) {
-      #section-1 #section-1-container #burger-container {
-        display: none; } }
-    #section-1 #section-1-container #burger-container i {
-      cursor: pointer; }
-    #section-1 #section-1-container #burger-container a:link,
-    #section-1 #section-1-container #burger-container a:visited {
-      color: #000; }
-      @media (min-width: 768px) {
-        #section-1 #section-1-container #burger-container a:link,
-        #section-1 #section-1-container #burger-container a:visited {
-          color: #fff; } }
-    #section-1 #section-1-container #burger-container a:hover,
-    #section-1 #section-1-container #burger-container a:active {
-      background-color: #B04D38;
-      color: #fff;
-      padding: 15px;
-      width: 150px;
-      text-align: center; }
   #section-1 #section-1-container #nav-container {
     grid-area: nav;
     display: none; }
     @media (min-width: 768px) {
       #section-1 #section-1-container #nav-container {
-        display: block;
-        padding-top: 30px; } }
+        display: block; } }
+  #section-1 #section-1-container #burger-icon {
+    justify-content: flex-start;
+    grid-area: burger;
+    margin: 10px; }
     @media (min-width: 768px) {
-      #section-1 #section-1-container #nav-container ul {
-        display: flex;
-        align-items: center;
-        justify-content: center; } }
-    #section-1 #section-1-container #nav-container ul li {
-      font-family: 'Lato', sans-serif;
-      font-size: 1.5rem; }
-      @media (min-width: 768px) {
-        #section-1 #section-1-container #nav-container ul li {
-          margin: 0 60px 0 0;
-          align-items: center;
-          display: flex;
-          justify-content: center; } }
-      @media (min-width: 992px) {
-        #section-1 #section-1-container #nav-container ul li {
-          margin: 0 120px 0 0; } }
-      #section-1 #section-1-container #nav-container ul li a:link,
-      #section-1 #section-1-container #nav-container ul li a:visited {
-        color: #000;
-        padding: 15px;
-        text-align: center;
-        display: flex; }
-        @media (min-width: 768px) {
-          #section-1 #section-1-container #nav-container ul li a:link,
-          #section-1 #section-1-container #nav-container ul li a:visited {
-            color: #fff; } }
-      #section-1 #section-1-container #nav-container ul li a:hover,
-      #section-1 #section-1-container #nav-container ul li a:active {
-        background-color: #B04D38;
-        color: #fff; }
+      #section-1 #section-1-container #burger-icon {
+        display: none; } }
   #section-1 #section-1-container #text-header {
     grid-area: text-header;
     display: grid;
