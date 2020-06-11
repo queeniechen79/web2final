@@ -85,8 +85,8 @@
 
                 p {
                     padding-bottom: 10%;
-                    margin-left: 10px;
-                    margin-right: 10px;
+                    margin-left: 20px;
+                    margin-right: 20px;
 
                     @include md {
                         margin: 0;
@@ -97,17 +97,6 @@
                         padding-bottom: 105px;
                     }
                 }
-
-                // h2 {
-                //     background-color: $red;
-                //     text-align: center;
-                //     padding: 20px;
-                //     border-radius: 10px;
-                //     width: 100px;
-                //     display: flex;
-                //     align-items: center;
-                //     justify-content: center;
-                // }
             }
         }
     }

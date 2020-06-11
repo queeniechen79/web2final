@@ -1,6 +1,6 @@
 // const track = document.querySelector('#food-carousel');
 
-$(document).ready(function() {
+$(document).ready(function() { 
     $('.carousel').slick({
         dots: true,
         infinite: true,

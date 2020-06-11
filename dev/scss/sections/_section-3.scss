@@ -47,16 +47,6 @@
                     @include lg {
                         height: 340px;
                     }
-
-                    p {
-                        margin-left: 30%;
-                        margin-right: 30%;
-
-                        @include lg {
-                            margin-left: 35%;
-                            margin-right: 35%;
-                        }
-                    }
                 }
             }
 
